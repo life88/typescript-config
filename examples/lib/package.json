@@ -1,0 +1,14 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "private": false,
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@life88/typescript-config": "workspace:*",
+    "typescript": "^5.0.2"
+  }
+}

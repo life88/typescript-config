@@ -1,0 +1,33 @@
+{
+  "name": "@life88/typescript-config",
+  "version": "0.0.1",
+  "description": "Self-use typescript config",
+  "keywords": [
+    "typescript",
+    "config",
+    "typescript config"
+  ],
+  "license": "MIT",
+  "author": "life88",
+  "exports": "./tsconfig.base.json",
+  "main": "tsconfig.base.json",
+  "files": [
+    "tsconfig.base.json",
+    "package.json",
+    "pnpm-lock.yaml"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@life88/prettier-config": "github:life88/prettier-config",
+    "prettier": "^2.8.6"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.x"
+  }
+}

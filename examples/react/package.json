@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@life88/typescript-config": "workspace:*",
+    "@types/react": "^18.0.28",
+    "typescript": "^5.0.2"
+  }
+}
