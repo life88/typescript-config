@@ -1,7 +1,7 @@
 {
   "name": "lib",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "license": "ISC",
   "main": "index.js",
   "scripts": {
